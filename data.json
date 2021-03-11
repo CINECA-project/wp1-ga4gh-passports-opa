@@ -1,0 +1,27 @@
+{
+    "paths": [
+      {
+        "path": "api/ga4gh/individuals",
+        "method": "GET",
+        "datasets": [
+          {
+            "dataset": "https://example-institute.org/datasets/600",
+            "access_level": ["Registered"]
+
+          },
+          {
+            "dataset": "https://ega-archive.org/datasets/EGAD00000000432",
+            "access_level": ["Public"]
+          },
+          {
+            "dataset": "https://ega-archive.org/datasets/710",
+            "access_level": ["Controlled", "Registered"]
+          },
+          {
+            "dataset": "https://ega-archive.org/datasets/712",
+            "access_level": ["Controlled", "Registered"]
+          }
+        ]
+      }
+    ]
+}
